@@ -597,6 +597,8 @@ header{
     margin: 0;
     display: block;
     text-align: left;
+         max-width: 100%;
+        display: block;
     box-sizing: border-box;
 }
 
@@ -612,6 +614,8 @@ header{
     text-align: left;
     padding: 0;
     box-sizing: border-box;
+         max-width: 100%;
+        display: block;
     letter-spacing: .1px;
 }
 
@@ -644,9 +648,11 @@ header{
 
 /* ----------------------------------------------------------------------- */
 
-
+.services{
+    width: 100%;
+}
 .services .bg {
-    background: linear-gradient(to bottom, white 0%, white 12%, var(--background-color) 12%, var(--background-color) 100%);
+    background: linear-gradient(to bottom, white 0%, white 15%, var(--background-color) 18%, var(--background-color) 100%);
 }
 
 .services img {
@@ -667,9 +673,13 @@ header{
     line-height: 28px;
 }
 
+
+
+
 .services h5 {
     font-size: 18px;
     margin: 0;
+        letter-spacing: -.3px;
 
     text-align: left;
     margin-top: 10px;
@@ -682,7 +692,8 @@ header{
     font-size: 14px;
     line-height: 20px;
     font-weight: 550;
-    letter-spacing: 0.01px;
+        letter-spacing: .1px;
+    
     display: block;
 }
 
@@ -699,17 +710,15 @@ header{
 
 .services .content {
     padding: 20px;
+    box-sizing: border-box;
 
 }
 
-.shop {
-    margin: 20px;
-}
 
 
 
 .services .groceries {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-top: -40px;
     height: 350px;
     text-align: center;
@@ -724,7 +733,9 @@ header{
     align-items: center;
     justify-content: center;
 }
-
+.services .shop button{
+    margin-bottom: 0;
+}
 .groceries .text {
     color: white;
     align-items: center;
@@ -734,21 +745,36 @@ header{
     max-width: 550px;
 }
 
-.groceries h3 {
+.groceries h1 {
     text-align: center;
     color: #ffffff;
-    margin-top: 20px;
+    margin: 20px 0 0;
+
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
 }
 
-.groceries h5 {
+.groceries .text h2 {
     text-align: center;
+        filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+        margin: 10px 0 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+
+
 }
 
-.groceries p {
+.groceries span {
     text-align: center;
+    color: #ffffff;
+    margin: 10px 4px 0;
+    font-size: 14px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    line-height: 20px;
+
 
 }
 
@@ -851,7 +877,8 @@ header{
 }
 
 .featured1 button {
-    padding: 5px 12px;
+    padding: 0px 12px;
+    height: 32px;
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -1297,15 +1324,35 @@ footer span {
 }
 
 
+/* ------------------------------------------- */
+.services .bg {
+    background: linear-gradient(to bottom, white 0%, white 44.5%, var(--background-color) 44.5%, var(--background-color) 100%);
+}
+.services .content{
+    margin: 0;
+    padding: 0;
+}
 
-    .content>div {
+    .content >div {
         display: flex;
+        gap: 60px;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 0;
+        max-width: 1184px;
 
     }
-
-    .shop {
-        display: flex;
+    .content div .my{
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+        box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
     }
+
+   
 
     .services .find,
     .services .shop,
@@ -1314,30 +1361,73 @@ footer span {
 
     }
 
-    .services div div {
-        padding: 40px 40px 40px 0;
-        line-height: 1.3;
-        margin: 10px;
-
-    }
 
     .services h3 {
         font-size: 40px;
+        margin: 20px 0 0;
+        max-width: 90%;
+        line-height: 40px;
     }
 
-    .services div div h5 {
+    .services .my h5 {
         font-size: 20px;
+        margin: 20px 0 0;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -.3px;
+        
     }
+    .services .find p{
+        margin: 10px 0 0;
+    }
+    .services .content p{
+        margin: 20px 0 0;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        letter-spacing: .1px;
+    }
+    .find button{
+         width: 146px;
 
+    }
+    .services .content  button{
+        margin: 30px 0 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 0px !important;
+        max-width: 100%;
+    }
+    .dashpass button{
+       width: 127px;
+    } 
+    .shop button{
+        width: 100.32px ;
+    }
+.dasher button{
+    width:152.81px;
+}
+.partner button{
+    width: 156.24px;
+}
+
+    .services .image{
+        width: 100%;
+        box-sizing: border-box;
+        overflow-clip-margin: content-box;
+    overflow: clip;
+    }
     .services img {
-        width: 40%;
-        height: 450px !important;
+        width: 100%;
+        object-fit: cover;
+        height: 500px !important;
     }
-
+/* 
     .services .dashpass div,
     .services .partner div {
         margin-left: 40px;
-    }
+    } */
 
     .services .groceries {
         margin: 20px 0 20px 0;
@@ -1351,6 +1441,7 @@ footer span {
         text-align: center;
 
     }
+    /* -------------------------------------------- */
 
 
     .featured1 {
@@ -1521,50 +1612,83 @@ footer span {
 
     }
     /* ----------------------------------------------------------------- */
+    
 
     .wrapf{
         max-width: 1184px;
-        box-sizing: border-box;
-    }
+        margin: 0 auto !important;
+        justify-self: center;
+        /* box-sizing: unset; */
+    
+        }
     .featured{
         margin: 96px 0;
         flex-direction: row;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
+        width: 1080px !important;
+        align-items: center;
+        justify-self: center;
+        flex-wrap: wrap;
+        /* box-sizing: unset; */
+
+    }
+    .featured .setwidth{
+        /* box-sizing: unset; */
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        /* width: 1080px !important; */
+
+        
     }
     .featured ul{
+        display: flex;
+        /* max-width: 100%;
+
+        /* box-sizing: unset; */
         flex-direction: row;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     }
     .featured li{
+        /* width: 328px; */
         margin: 0 17px;
         flex-flow: column ;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
+        
     }
     .featured .image{
         display: flex;
         justify-content: center;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     }
     .featured img{
 
         width:154px !important;
         height: 154px !important;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
 
     }
     .featured .feac{
         min-height: 66.5px;
         justify-content: center;
         align-items: center;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
 
         text-align: center;
+    }
+    .featured h3{
+        margin-top: 8px ;
+        width: 250;
+        /* box-sizing: unset; */
+
     }
     .featured h2, .featured h3{
         text-align: center;
         box-sizing: border-box;
+   
 
     }
+    /* ----------------------------------------------- */
     
  
     .services .bg {
