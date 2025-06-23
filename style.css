@@ -550,7 +550,7 @@ header {
     color: white;
     border: none;
     border-radius: 28px;
-    max-width: 100%px;
+    max-width: 100%;
     height: 40px;
     cursor: pointer;
     grid-row: 2/3;
@@ -1180,7 +1180,7 @@ footer .lap .icons .svg {
 }
 
 footer .lap .icons .svg1 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 footer .trio {
@@ -1310,7 +1310,7 @@ footer .tab {
     }
 
     .banner .name {
-        transform: translateY(-224px);
+        transform: translateY(-223.5px);
         box-sizing: border-box;
     }
 
@@ -1320,7 +1320,7 @@ footer .tab {
         right: 100px;
         margin-right: 22px;
         margin-top: 16px;
-        padding: 11px 12px;
+        padding: 11px 12px 10.5PX;
         max-width: 100%;
         align-self: flex-end;
 
@@ -1372,14 +1372,16 @@ footer .tab {
     .input-wrapper {
         /* border: 2px solid blue; */
         width: 407px;
-        padding: 7.5px 8px 7.5px 20px;
+        padding: 8px 8px 8px 20px;
         min-height: 40px;
+        height: 55.983px;
+
         text-align: center;
         margin: 0;
         justify-self: center;
         align-self: center;
         box-sizing: border-box;
-        transform: translateY(-10px);
+        transform: translateY(-11px);
     }
 
     .banner .input-wrapper .svg11 {
@@ -1387,23 +1389,25 @@ footer .tab {
         font-size: 16px;
         font-weight: 500;
         padding: 0;
-        margin-right: 12px;
+        transform: translate(-2px, 1px);
         fill: #606060 !important;
     }
 
     .banner .input-wrapper input {
         max-width: 100%;
-        margin: 0 20px 0 0;
+        margin: 0px 0px 0 0px;
+
         box-sizing: border-box;
         padding: 0;
     }
 
 
     .banner .input-wrapper .svg2 {
-        margin-left: 85px;
+        margin-left: 87px;
         margin-right: 0;
         margin-bottom: 0px;
-        margin-top: 0;
+        transform: translate(1.5px, -1px);
+        margin-top: 3px;
 
 
         display: flex;
@@ -1428,7 +1432,7 @@ footer .tab {
         align-items: center;
         margin: 0 auto 0 auto;
         transform: translateY(5px);
-        padding: 11px 6px 10px 10px;
+        padding: 11px 6px 10px 12.5px;
         border: 1px solid #ccc;
         border-radius: 30px;
         height: 10px;
@@ -1538,7 +1542,7 @@ footer .tab {
     }
 
     .services .find p {
-        margin: 10px 0 0;
+        margin: 10px 0 0 !important;
     }
 
     .services .content p {
@@ -1555,11 +1559,12 @@ footer .tab {
     }
 
     .services .content button {
+        height: 40px;
         margin: 30px 0 0;
         box-sizing: border-box;
         cursor: pointer;
         font-size: 16px;
-        padding: 10px 0px !important;
+        padding: 9px 0px 11px !important;
         max-width: 100%;
     }
 
@@ -1605,8 +1610,12 @@ footer .tab {
         height: 600px;
         background-size: cover;
     }
-    .groceries h2{
+
+    .groceries h2 {
         margin-top: 20px !important;
+        font-size: 20px !important;
+        font-weight: 700;
+        line-height: 24px;
     }
 
     .services h1 {
@@ -1633,13 +1642,15 @@ footer .tab {
     }
 
     .services button {
-        margin: 30px 0 0;
+        margin: 31px 0 0;
         min-height: 40px;
         line-height: 22px;
         font-size: 16px;
     }
-    .services .shop{
+
+    .services .shop {
         margin-bottom: -40px;
+        padding-top: 60px;
     }
 
     /* -------------------------------------------- */
@@ -1648,16 +1659,18 @@ footer .tab {
     .featured1 {
         background: var(--background-color);
         overflow: hidden;
-    
+
 
     }
+
     .featured1 .feahead {
         padding: 60px 20px 40px;
         width: 100%;
         box-sizing: border-box;
         justify-content: center;
     }
-    .featured1 .feahead h1{
+
+    .featured1 .feahead h1 {
         max-width: 500px;
         text-align: center;
         font-size: 32px;
@@ -1673,7 +1686,8 @@ footer .tab {
         width: 100%;
         align-items: center;
     }
-    .feaflex{
+
+    .feaflex {
         display: flex;
         flex-flow: wrap;
         width: 100%;
@@ -1681,7 +1695,7 @@ footer .tab {
         box-sizing: border-box;
     }
 
-    .feaflex >div {
+    .feaflex>div {
         max-width: 50% !important;
         min-width: 50% !important;
         padding: 20px !important;
@@ -1689,82 +1703,121 @@ footer .tab {
         align-items: center;
         display: flex;
         flex-direction: column;
-        box-sizing:border-box !important;
+        box-sizing: border-box !important;
         /* max-width: 551.795px; */
 
     }
 
-    .feaflex img {
+
+    .feaflex .image {
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        aspect-ratio: 1/1;
+
+
+    }
+
+    .feaflex .image img {
+
         width: 100%;
         height: 100%;
-        /* position: absolute; */
-        /* max-height: 551.795px; */
         margin: 0;
         padding: 0 !important;
         object-fit: cover;
-        object-position: center center;
-        /* box-sizing: border-box; */
+        object-position: center center !important;
+        box-sizing: border-box;
+
     }
-    .feaflex h2{
+
+    .feaflex h2 {
         max-width: 90%;
         margin-top: 20px;
         font-size: 40px !important;
         line-height: 40px !important;
         font-weight: 700;
     }
-    .feaflex p{
+
+    .feaflex p {
         text-align: center;
-        margin-top:20px ;
+        margin-top: 20px;
         font-size: 16px;
         line-height: 22px;
         font-weight: 500;
+        letter-spacing: .1px;
     }
-    .feaflex button{
+
+    .feaflex button {
         margin-top: 30px;
-        box-sizing: unset;
+        font-size: 16px;
+        height: 40px;
+        /* box-sizing: unset; */
 
-       
+
     }
-    .pet img{
-        height: 54.5%;
-    } 
-    .flowers img{
-        height:55.5% !important;
-    }
+
+
     .featured1 .beauty button {
-    width: 117.650px;
-        padding: 10px 0;
+        width: 117.650px;
 
-}
+        height: 40px;
 
-.featured1 .flowers button {
-    width: 124.124px;
-        padding: 5px 0;
+    }
 
-    
-}
-
-.featured1 .alcohol button {
-    width: 123.002px;
-        padding: 10px 0;
-
-}
-
-.featured1 .pet button {
-    width: 149.199px;
-        padding: 4.1px 0;
-
-}
-
-  
+    .featured1 .flowers button {
+        width: 124.124px;
+        /* padding: 5px 0; */
 
 
+    }
 
-   
+    .featured1 .alcohol button {
+        width: 123.002px;
+        /* padding: 10px 0; */
+
+    }
+
+    .featured1 .pet button {
+        width: 149.199px;
+        /* padding: 4.1px 0; */
+
+    }
+
+    .alcohol .care {
+        margin: 22px 0 0 !important;
+           font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 1px !important;
+    }
+    /* ------------------------------------------------------------------ */
+
+    .services .why{
+        padding: 60px 20px 40px;
+    }
+    .services .why h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        max-width: 500px;
+        text-align: center;
+    }
+
+
+
+
+
+
     /* ------------------------- */
+    .neighbour h1{
+        padding-bottom: 5px;
+    }
 
     .neighbour .neighflex .tab-content {
         gap: 12px;
+    }
+    .seemore{
+        padding-top:15px !important;
     }
 
     /* --------------------------- */
@@ -1796,17 +1849,27 @@ footer .tab {
 
 
 
-
     footer .trio {
+        list-style-type: none;
         display: flex;
         flex-direction: row;
         gap: 12px;
-        justify-content: space-between;
-        flex: 1 1 0%;
+        justify-content: space-between !important;
+        flex: 1 1 0% !important;
+    }
+    footer .let{
+       /* margin-left: 145px; */
+       transform: translateX(40px);
+    }
+    footer .doing{
+        /* margin-left: 150px; */
+       transform: translateX(85px);
+
     }
 
     footer .trio>div {
         text-align: left;
+        flex: 1;
     }
 
     footer .tab {
@@ -1824,7 +1887,7 @@ footer .tab {
     }
 
     .tab .lang {
-        margin: 0 12px;
+        margin: 10px 0px 0;
 
     }
 
@@ -1850,7 +1913,7 @@ footer .tab {
     .banner .name .sv1 {
         width: 42px;
         height: 24px;
-        padding-right: 5px;
+        padding-right: 4px;
 
 
     }
