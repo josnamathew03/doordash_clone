@@ -1231,7 +1231,7 @@ footer .trio {
     display: flex;
     flex-direction: column;
     flex: 1 1 0%;
-    justify-content: space-between;
+    justify-content: center;
     gap: 12px;
     box-sizing: border-box;
 
@@ -1243,6 +1243,7 @@ footer .trio {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .trio div h4 {
@@ -1938,7 +1939,7 @@ footer .tab {
         list-style-type: none;
         display: flex;
         flex-direction: row;
-        gap: 125px;
+        /* gap: 125px; */
         justify-content: space-between !important;
         flex: 1 1 0% !important;
         box-sizing: border-box;
@@ -1949,11 +1950,13 @@ footer .tab {
     footer .trio>div {
         text-align: left;
     }
-       /* footer .let{
+       footer .get{
+        max-width: 113.622px !important;
+        box-sizing: border-box;
     
-       transform: translateX(55px);
+       /* transform: translateX(55px); */
     }
-    footer .doing{
+     /*footer .doing{
   
        transform: translateX(110px);
 
