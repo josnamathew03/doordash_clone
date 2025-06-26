@@ -1279,7 +1279,7 @@ footer .get .cat div {
     margin-bottom: 0;
 }
 
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 footer a {
     margin-top: 8px;
@@ -1352,53 +1352,77 @@ footer .tab {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 32px 0;
-}
+    padding: 32px 0 ;
+}       
+.tab .navv{
+    display: flex;
+}                                                                                            
 
 .tab .navv a {
     opacity: 0.7;
     cursor: pointer;
 
 }
-.tab .navv .a1{
-    margin-right: 8px;
+.tab .navv .a1{                                                                                                                                                                                      
+    margin-right: 12px;
 
+}
+.tab .navv div{
+    height: 28.1px;
 }
 
 .tab .lang {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
-    width: 150px;
 }
-
-.tab .lang .input-con {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    min-height: 32x;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.tab .lang span{
     font-size: 14px;
     line-height: 20px;
-    color: var(--text-color);
-    /* display: flex; */
-    /* align-items: center; */
-    border-radius: 16px;
-    background: white;
-    padding: 4px 12px;
+    font-weight: 500;
+   letter-spacing: .15px;                                                                    
 }
 
-.input-con svg {
+
+.tab .lang .input-con {
+     width: 150px;
+    height: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
     /* max-width: 100%; */
-    margin-right: 8px;
+    display: flex;
+    /* min-height: 32x;
+    font-size: 14px;
+    line-height: 20px; */
+    /* color: var(--text-color); */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 16px; */
+    background: white;
+    /* padding: 4px 12px; */
+}
+
+.input-con .svg1,
+.input-con .svg2 {
+    /* max-width: 100%; */
+    /* margin-right: 8px; */
     box-sizing: border-box;
     color: #f1f1f1 !important;
+    height: 24px;
+    width: 24px;
+    /* width: 100px; */
+}
+.input-con .svg2{
+    margin-left: -8px;
+}                          
+.input-con .svg1{
+    margin-right: 8px;
 }
 
-.input-con select {
-    border: none;
-
-}
 
 
 .tab .last {
@@ -1409,42 +1433,36 @@ footer .tab {
     max-width: 100%;
     box-sizing: border-box;
     text-align: center;
+
     position: relative;
-    line-height: 1;
-    align-items: flex-start;
+    /* line-height: 1; */
+    align-items: center;
     gap: 0;
     /* transform: translateY(3px); */
 }
 
+      .tab .last .icon{
+        height: 18px;
+      }                                                                                                               
 
-/* .tab .last a {
-     margin:0 0 0 16px;
-    color: #c4c4c4;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px !important;
-    display: inline-block;
-    max-height: 18px;
- 
-} */
-
-.tab .last div {
+.tab .last svg{
     box-sizing: border-box;
+    height: 18px;
+    /* margin-top: -3px; */
+    /* transform: translateY(3px); */
 }
 
 .tab .last span{
-    
- 
-
-
     font-size: 12px;
     margin-left: 16px;
-     font-weight: 500;
+     font-weight: 600;
     line-height: 18px;
+    letter-spacing: .1px !important;                                                                          
+
 
     color: rgb(196,196,196);
-    max-height: 18px;
-    height: 18px;
+    /* max-height: 18px;
+    height: 18px; */
 
 }
 
@@ -1529,8 +1547,8 @@ footer .tab {
         right: 100px;
         margin-right: 22px;
         margin-top: 16px;
-                padding: 9.5px 12px;
-        font-size: 18px;
+         padding: 11px 12px 10.5px;
+        font-size: 16px;
         max-width: 100%;
         align-self: flex-end;
 
@@ -2201,17 +2219,26 @@ footer .tab {
     }  */
 
     .tab .lang {
-        margin: 0px 0px 0;
+        margin: 0px 12px;
+        margin-top: -4px;
+
+
+    }
+    .lang .input-con{
+        height: 32px;
+        box-sizing: border-box;
 
     }
 
     .tab .navv {
         display: flex;
         flex-wrap: nowrap !important;
+        margin-top: -7px;
+
     }
 
     .tab .navv a {
-        margin-left: 12px;
+        /* margin-left: 12px; */
         margin-bottom: 10px;
     }
 
@@ -2305,6 +2332,13 @@ footer .tab {
     footer .trio {
         gap: 12px !important;
     }
+    .tab{
+        padding: 35px 0px 32px !important;
+    }
+    .tab .last{
+        margin-top: -4.5px !important;
+    }
+
 
     footer .icons {
         display: flex;
