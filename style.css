@@ -153,12 +153,12 @@ header {
 
 .head .info p {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     display: block;
     margin-top: 1.5px;
     color: #606060;
-    font-weight: 560;
-    letter-spacing: .1px;
+    /* line-height: 20px; */
+    letter-spacing: .16px;
 
 }
 
@@ -170,7 +170,7 @@ header {
     border: none;
     padding: 0;
     padding-top: 4px;
-    margin-left: -3px;
+    margin-left: -2.9px;
 }
 
 .head .info .svgwrap {
@@ -180,7 +180,8 @@ header {
     padding-right: 4px;
     padding-left: 2px;
 }
-.head .p1{
+
+.head .p1 {
     padding-top: 1.5px;
 }
 
@@ -272,6 +273,7 @@ header {
     height: 550px;
     justify-content: center;
     position: relative;
+    /* box-sizing: border-box; */
 
 
 }
@@ -283,6 +285,8 @@ header {
     justify-content: center;
     width: 100%;
     position: relative;
+    margin-top: 18px;
+    /* margin-bottom: 5px; */
 }
 
 
@@ -307,12 +311,13 @@ header {
     box-sizing: border-box;
 }
 
-.banner .name .sv1{
+.banner .name .sv1 {
     margin-top: 1px;
 }
+
 .banner .name .sv2 {
     margin-left: 8px;
-    transform: translateY(.5px);
+    /* transform: translateY(.5px); */
 
 }
 
@@ -320,11 +325,11 @@ header {
     margin: 20px 0px 22px 0px;
 
 }
-.banner .h1 h1{
+
+/* .banner .h1 h1{
     font-weight: 900;
-    font-size: 32px;
-    font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
+    
+} */
 
 .banner h1 {
     /* font-family: 'Anton', sans-serif; */
@@ -332,6 +337,8 @@ header {
     text-align: center;
     margin: 0;
     font-weight: 900;
+    font-size: 32px;
+    font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     flex: 1 0 30%;
 
     line-height: 28px;
@@ -358,8 +365,8 @@ header {
     line-height: 22px;
     box-sizing: border-box;
     height: 51.99px;
-    width: 301.86px;
-    padding: 6px 16px;
+    width: 302.9px;
+    padding: 7px 20px;
     max-width: 100%;
     min-height: 40px;
 
@@ -375,14 +382,15 @@ header {
     border: none;
     /* margin: 0; */
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 500;
     font-family: "ttnorms-regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     outline: none;
     justify-self: center;
     align-self: center;
     border-radius: 30px;
+    letter-spacing: .12px;
     flex-grow: 1;
-    transform: translate(10px, 1.5px);
+    transform: translate(5.7px, 1.5px);
     /* transform: translateY(2px); */
 
     /* margin: 0 12px 0 auto; */
@@ -399,7 +407,7 @@ header {
     max-width: 100%;
     margin-right: 0px;
     /* box-sizing: border-box; */
-    transform: translate(-.5px,3px);
+    transform: translate(-4px, 2.9px);
 
 
 
@@ -409,9 +417,9 @@ header {
     background: #eb1700ff;
     color: white;
     border-radius: 50%;
-    padding: 8px;
-    margin-top: 7px;
-    margin-right: -1px;
+    padding: 8.5px 7.6px 8px 8px;
+    margin-top: 6px;
+    margin-right: -4px;
     max-width: 100%;
     z-index: 2;
     position: relative;
@@ -445,7 +453,10 @@ header {
     box-sizing: border-box;
     width: 81.04px;
     height: 32px;
-    transform: translateY(19px);
+    /* transform: translateY(18px); */
+    margin-top: 18px;
+    /* padding: .7px 0 2px; */
+
     /* font-family: TT norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 
 
@@ -459,15 +470,18 @@ header {
     padding: 0;
     /* transform: translateY(-10px); */
     margin: 0 0 0px 0px;
-    margin-left: -7px;
+    /* margin-left: -6px; */
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
-    font-family: "ttnorms-regular";
+    transform: translate(4px, 0px);
+
+    font-family: "ttnorms-bold";
 }
 
 .banner .login svg {
-    padding-left: 12px;
+    /* padding-left: 10px; */
+    transform: translate(11px, 0px);
     background: none;
     font-weight: bolder;
 
@@ -485,7 +499,7 @@ header {
     border: 1px solid #f1f1f1ff;
     border-radius: 10px;
     justify-self: right;
-    padding: 7px 10.5px 9px 8px ;
+    padding: 7px 10.5px 9px 8px;
     box-sizing: border-box;
 
 
@@ -498,20 +512,27 @@ header {
 
 }
 
+
 .app .info h4 {
     padding: 0;
     margin: 0;
+    /* margin-bottom: 4px; */
+    transform: translateY(-.5px);
+
     font-size: 18px;
+    line-height: 22px;
+
 }
 
 .app .info p {
     font-size: 14px;
     /* font-weight: 100; */
     display: block;
-    margin: 2px 0 0 4px;
+    margin: 0px 0 0 4px;
     color: #606060;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 20px;
+    letter-spacing: .15px;
 
 }
 
@@ -523,15 +544,20 @@ header {
     border: none;
     padding: 0;
     padding-top: 5px;
-    margin-left: -3px;
+    margin-left: -2.9px;
 }
 
 .app .info .svgwrap {
     display: flex;
     gap: 0;
 
-    padding-right: -2px;
-    padding-left: 4px;
+    /* padding-right: -2px; */
+    padding-left: 2px;
+    padding-top: .7px;
+}
+
+.app .info .p1 {
+    padding-top: 1.5px;
 }
 
 .app .flex {
@@ -570,17 +596,19 @@ header {
 
 
 .app button {
-    padding: 5px 30px;
+    padding: 0px 30px;
     font-size: 16px;
     color: white;
     border: none;
+    box-sizing: border-box;
     border-radius: 28px;
     max-width: 100%;
+    /* padding-top: -10px; */
     height: 40px;
     cursor: pointer;
     grid-row: 2/3;
     grid-column: 1/7;
-    margin: 14.5px 0 0 0;
+    margin: 16px 0 0 0;
     width: 100%;
 
 }
@@ -588,7 +616,7 @@ header {
 /* ------------------------------------------------------------------- */
 .wrapf {
     margin: 0 auto;
-    max-width: 417px;
+    max-width: px;
     box-sizing: border-box;
 }
 
@@ -621,7 +649,7 @@ header {
     width: 100%;
     display: flex;
     /* height: 215.9px; */
-    padding: 16px 16PX;
+    padding: 16px 16px;
     min-width: 360px;
     align-self: center;
 
@@ -635,7 +663,7 @@ header {
 }
 
 .featured .image {
-    margin-right: 31px;
+    margin-right: 32px;
     box-sizing: border-box;
 }
 
@@ -645,13 +673,14 @@ header {
     width: 100%;
     max-width: 250px;
     box-sizing: border-box;
+    margin-top: px;
 }
 
 .featured h2 {
     font-size: 32px;
     padding: 0;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 40.2px;
     margin: 0;
     display: block;
     text-align: left;
@@ -664,17 +693,17 @@ header {
     box-sizing: border-box;
     color: var(--text-color);
     font-family: 'ttnorms-regular';
-    font-size: 18px;
+    font-size: 17px;
     margin: 0;
     /* font-weight: 100px; */
-    line-height: 24px;
+    line-height: 23.9px;
     letter-spacing: -0.01px;
     text-align: left;
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
     display: block;
-    letter-spacing: .1px;
+    letter-spacing: .59px;
 }
 
 
@@ -684,6 +713,10 @@ header {
     /* margin-top: -10px; */
     /* margin-bottom: 32px; */
 
+}
+
+.featured .get {
+    margin-top: 11.5px;
 }
 
 .featured ul li a {
@@ -699,7 +732,7 @@ header {
 .featured .anchors svg {
     background: none;
     margin-bottom: -3px;
-    margin-left: 1px;
+    margin-left: 1.5px;
     box-sizing: border-box;
 
 }
@@ -711,12 +744,14 @@ header {
 }
 
 .services .bg {
-    background: linear-gradient(to bottom, white 0%, white 15%, var(--background-color) 18%, var(--background-color) 100%);
+    background: linear-gradient(to bottom, white 0%, white 13%, var(--background-color) 13%, var(--background-color) 100%);
 }
 
 .services img {
     width: 100%;
     height: 180px;
+    box-sizing: border-box;
+
     object-fit: cover;
 }
 
@@ -738,7 +773,8 @@ header {
 .services h5 {
     font-size: 18px;
     margin: 0;
-    letter-spacing: -.3px;
+    letter-spacing: -.08px;
+    font-weight: 500;
 
     text-align: left;
     margin-top: 11.5px;
@@ -746,7 +782,7 @@ header {
 }
 
 .services p {
-    margin-top: 10px;
+    margin-top: 10.5px;
     text-align: left;
     font-size: 14px;
     line-height: 20px;
@@ -757,7 +793,7 @@ header {
 }
 
 .services button {
-    padding: 6px 12px;
+    padding: 6.1px 11.5px;
     margin: 20px 0 40px 0;
     font-size: 14px;
     font-weight: 700px;
@@ -773,6 +809,10 @@ header {
 
 }
 
+.services .dashpass button {
+    margin-top: 19.5px;
+}
+
 
 
 
@@ -782,7 +822,7 @@ header {
     height: 350px;
     text-align: center;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(1, 1, 1, 0.6), rgba(0, 0, 0, 0.5)),
         url(assets/hand-background.avif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -793,9 +833,7 @@ header {
     justify-content: center;
 }
 
-.services .shop button {
-    margin-bottom: 0;
-}
+
 
 .groceries .text {
     color: white;
@@ -809,7 +847,7 @@ header {
 .groceries h1 {
     text-align: center;
     color: #ffffff;
-    margin: 20px 0 0;
+    margin: 20px 24px 0;
 
     font-size: 24px;
     font-weight: 700;
@@ -841,6 +879,25 @@ header {
 
 .groceries button {
     margin: 20px 0 0;
+}
+.shop .my{
+    max-width: 575.65px;
+
+    /* width: 100%; */
+    justify-self: center;
+  
+    /* margin: 0 auto; */
+}
+.shop .my p{
+        font-size: 13.95px !important;
+
+}
+
+.services .shop button {
+    margin-bottom: 0;
+    margin-top: 19.5px;
+    padding: 6.1px 11.5px;
+
 }
 
 /* ------------------------------------------------------------- */
@@ -874,7 +931,7 @@ header {
     text-align: center;
     max-width: 300px;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 27.9px;
     margin: 0;
 }
 
@@ -912,7 +969,12 @@ header {
     align-items: center;
     box-sizing: border-box;
 }
-.featured1 .image{
+
+.feaflex .pet {
+    margin-right: 30px !important;
+}
+
+.featured1 .image {
     width: 100%;
 }
 
@@ -921,8 +983,8 @@ header {
     height: 180px;
     object-fit: cover;
     box-sizing: border-box;
-    object-position: left center !important;
-    margin-bottom: 4.1px;
+    object-position: center center !important;
+    /* margin-bottom: 4.1px; */
 
 }
 
@@ -931,7 +993,7 @@ header {
     margin: 20px 0 0 0;
     max-width: 90%;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 28.1px;
 }
 
 .featured1 p {
@@ -939,6 +1001,7 @@ header {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    letter-spacing: .1px;
 }
 
 .featured1 button {
@@ -948,7 +1011,7 @@ header {
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    margin-top: 20px;
+    margin-top: 19.5px;
     box-sizing: border-box;
 }
 
@@ -977,6 +1040,8 @@ header {
 
 }
 
+.featured1 .alcohol .care p {}
+
 /* --------------------------------------------------------------------------- */
 .services .why {
     display: flex;
@@ -998,8 +1063,18 @@ header {
 
 }
 
+.services .bgg {
+    background: linear-gradient(to bottom, white 0%, white 10%, var(--background-color) 10%, var(--background-color) 100%);
+}
+
+.services .dasher button {
+    padding: 5.8px 11.8px;
+}
+
 .services .partner button {
     margin-bottom: 0;
+    padding: 5.8px 11.8px 6px;
+
 }
 
 /* ------------------------------------------------------------------------------ */
@@ -1012,6 +1087,7 @@ header {
 }
 
 .neighbour h1 {
+    /* margin-top: -10px; */
     text-align: center;
     margin: 0 0 20px 0;
     font-size: 32px;
@@ -1027,7 +1103,7 @@ header {
     width: 100%;
     justify-content: center;
     gap: 24px;
-    margin-top: -7px;
+    /* margin-top: -7px; */
     box-sizing: border-box;
 }
 
@@ -1041,19 +1117,21 @@ header {
 
 .neighbour .spans .seen {
     border-bottom: 3px solid var(--text-color);
+    box-sizing: border-box;
+
+
+}
+
+.neighbour .spans .seen span {
     font-weight: bolder;
     color: var(--text-color);
 
 }
 
 .neighbour .spans div {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    color: #606060ff;
+
     font-family: "ttnorms-bold";
     border-bottom: 3px solid #f4f2f2;
-    font-family: "ttnorms-bold";
     width: 33.33%;
     display: flex;
     height: 40px;
@@ -1061,12 +1139,27 @@ header {
     align-items: center;
     text-align: center;
     background: #ffffffff;
+    /* margin-bottom: -10px; */
+    box-sizing: border-box;
+}
+
+.neighbour .spans div span {
+    letter-spacing: .7px;
+    /* font-family: "ttnorms-bold"; */
+    font-size: 14.8px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #606060ff;
+    /* padding-bottom: -20px; */
+    box-sizing: border-box;
+
+
 }
 
 .neighbour .neighflex .tab-content {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -1074,15 +1167,17 @@ header {
 .neighbour .tab-content .items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 19px;
+    gap: 16px;
     width: 100%;
 }
 
-.neighbour .tab-content.items a {
+.neighbour .tab-content .items li {
     font-size: 16px;
     line-height: 22px;
-    font-weight: bolder !important;
-    font-family: "ttnorms-bold" !important;
+    font-weight: 600 !important;
+    letter-spacing: .1px;
+
+  
 
 }
 
@@ -1090,8 +1185,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 0 10px;
+    padding: 10px 0 10px;
     box-sizing: border-box;
+ 
 }
 
 .neighbour .seemore span {
@@ -1118,22 +1214,10 @@ header {
     min-height: 40px;
 
 }
-
-
-@media screen and (max-width:480px) {
-    .neighbour {
-        max-width: 100%;
-        padding: 24px 16px;
-    }
-
-    .neighbour .spans div {
-        padding-bottom: 7px;
-    }
-
-
-
-
+.neighbour .seemore button svg{
+    padding-top: 2.5px;
 }
+
 
 /* ------------------------------------------------------------------ */
 .foot {
@@ -1144,10 +1228,12 @@ header {
     display: flex;
     box-sizing: border-box;
 }
-.foot .foo{
+
+.foot .foo {
     width: 1184px;
 }
-footer{
+
+footer {
     padding: 0 20px;
     max-width: 1160px;
     margin: 0 auto;
@@ -1170,9 +1256,10 @@ footer h4 {
     color: rgb(255, 255, 255);
     margin: 0 0 8px 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: "ttnorms-regular";
     line-height: 22px;
+    letter-spacing:0.1px;
 }
 
 footer .get .cat {
@@ -1202,6 +1289,8 @@ footer a {
     font-weight: 500;
     line-height: 20px;
     color: rgb(196, 196, 196);
+    letter-spacing:0.1px;
+
 }
 
 
@@ -1217,14 +1306,17 @@ footer .lap .icons {
 footer .lap .icons .svg {
     padding: 2px 8px;
     border-radius: 8px;
-    background-color: rgb(73, 73, 73);
+    background-color: #383838;
     display: flex;
+    color: #191919;
     justify-content: center;
     box-sizing: border-box;
 }
 
 footer .lap .icons .svg1 {
     margin-bottom: 12px;
+
+
 }
 
 footer .trio {
@@ -1266,6 +1358,11 @@ footer .tab {
 .tab .navv a {
     opacity: 0.7;
     cursor: pointer;
+
+}
+.tab .navv .a1{
+    margin-right: 8px;
+
 }
 
 .tab .lang {
@@ -1303,6 +1400,7 @@ footer .tab {
 
 }
 
+
 .tab .last {
     margin-top: 12px;
     display: flex;
@@ -1311,30 +1409,89 @@ footer .tab {
     max-width: 100%;
     box-sizing: border-box;
     text-align: center;
+    position: relative;
+    line-height: 1;
+    align-items: flex-start;
+    gap: 0;
+    /* transform: translateY(3px); */
 }
 
-.tab .last a {
-    margin: 0 0 0 16px;
+
+/* .tab .last a {
+     margin:0 0 0 16px;
+    color: #c4c4c4;
     font-size: 12px;
-}
+    font-weight: 500;
+    line-height: 18px !important;
+    display: inline-block;
+    max-height: 18px;
+ 
+} */
 
 .tab .last div {
     box-sizing: border-box;
 }
 
-.tab .last span {
-    margin-left: 16px;
-    color: rgb(196, 196, 196);
+.tab .last span{
+    
+ 
+
+
     font-size: 12px;
-    font-weight: 500;
+    margin-left: 16px;
+     font-weight: 500;
     line-height: 18px;
+
+    color: rgb(196,196,196);
+    max-height: 18px;
+    height: 18px;
+
 }
 
+
+
 @media screen and (max-width:480px) {
-    .tab .lang {
+    /* .featured{
+        padding: 8px 9px !important;
+    } */
+    .featured .anchors svg{
+        margin-left: 1px;
+    }
+    .featured .feac .get svg{
+        margin-left: 1.5px;
+
+    }
+    .services .bg {
+    background: linear-gradient(to bottom, white 0%, white 17.3%, var(--background-color) 17.3%, var(--background-color) 100%);
+}
+.services .shop button {
+    padding: 6.1px 12px 5.9px;
+
+}
+.featured1 button{
+    margin-top: 20px !important;
+
+}
+    .neighbour {
+        max-width: 100%;
+        padding: 24px 16px;
+    }
+
+    .neighbour .spans div {
+        padding-bottom: 12px;
+        /* box-sizing: unset; */
+
+    }
+      .tab .lang {
         padding: 12px;
 
     }
+    .last span{
+        /* margin-top: 5px !important; */
+    }
+
+
+
 
 }
 
@@ -1349,6 +1506,12 @@ footer .tab {
     .app {
         display: none;
     }
+    .banner{
+        margin: 0;
+    }
+    .banner .name .sv2{
+        transform: translateY(.7px);
+    }
 
     .bannerflex {
         height: 650px;
@@ -1356,7 +1519,7 @@ footer .tab {
     }
 
     .banner .name {
-        transform: translateY(-208.5px);
+        transform: translateY(-208px);
         box-sizing: border-box;
     }
 
@@ -1366,7 +1529,8 @@ footer .tab {
         right: 100px;
         margin-right: 22px;
         margin-top: 16px;
-        padding: 11px 12px 10.5PX;
+                padding: 9.5px 12px;
+        font-size: 18px;
         max-width: 100%;
         align-self: flex-end;
 
@@ -1404,7 +1568,7 @@ footer .tab {
         font-weight: 900;
         font-size: 40px !important;
         line-height: 40px;
-        transform: translateY(5px);
+        transform: translateY(4px);
         text-align: center;
         display: block;
 
@@ -1420,17 +1584,18 @@ footer .tab {
 
     .input-wrapper {
         /* border: 2px solid blue; */
-        width: 407px;
-        padding: 7.9px 8px 8px 20px;
+                width: 407.99px;
+
+        padding: 7.9px 8px 9px 20px;
         min-height: 40px;
-        height: 55.983px;
+        height: 56.5px;
 
         text-align: center;
         margin: 0;
         justify-self: center;
         align-self: center;
         box-sizing: border-box;
-        transform: translateY(5px);
+        transform: translateY(5.8px);
     }
 
     .banner .input-wrapper .svg11 {
@@ -1438,15 +1603,17 @@ footer .tab {
         font-size: 16px;
         font-weight: 500;
         padding-left: 3px;
-        transform: translate(-4px, 1px);
+        transform: translate(-3.5px, .5px);
         fill: #606060 !important;
     }
 
     .banner .input-wrapper input {
         max-width: 100%;
         margin: 0px 0px 0 0px;
-
+        /* transform: translate(4px,-1.5px); */
         box-sizing: border-box;
+    transform: translate(8.5px, 0px);
+
         padding: 0;
     }
 
@@ -1455,7 +1622,7 @@ footer .tab {
         margin-left: 87px;
         margin-right: 0;
         margin-bottom: 0px;
-        transform: translate(1.5px, -1px);
+        transform: translate(.5px, -1px);
         margin-top: 3px;
 
 
@@ -1480,8 +1647,8 @@ footer .tab {
         display: flex !important;
         align-items: center;
         margin: 0 auto 0 auto;
-        transform: translateY(22px);
-        padding: 11px 6px 10px 12.5px;
+        transform: translateY(21px);
+        padding: 11px 6px 10px 12px;
         border: 1px solid #ccc;
         border-radius: 30px;
         height: 10px;
@@ -1497,9 +1664,9 @@ footer .tab {
         margin: 0 0 0px 0px;
         color: var(--text-color);
         margin-left: -7px;
-        font-size: 14px;
+        font-size: 14.5px;
         line-height: 20px;
-        font-weight: 700;
+        font-weight: 900;
         font-family: "ttnorms-regular";
     }
 
@@ -1513,14 +1680,22 @@ footer .tab {
     .wrapf {
         max-width: 768px;
         margin: 0px auto !important;
+        justify-content: center;
 
         box-sizing: border-box;
     }
 
     .featured {
-        margin: 33px 0;
+        margin: 32px 0;
         box-sizing: border-box;
+      
     }
+    /* .featured h3{
+        line-height: 24px;
+    } */
+     /* .featured .get h3{
+        line-height: 24.5px;
+     } */
 
     .featured .image {
         margin-right: 64px;
@@ -1532,12 +1707,20 @@ footer .tab {
         height: 124px !important;
         box-sizing: border-box;
     }
+    .featured ul li a {
+    font-weight: 900;
+    line-height: 18px !important;
+    letter-spacing: .3px;
+    font-family: "ttnorms-regular";
+}
+
 
 
     /* ------------------------------------------- */
-    .services{
+    .services {
         box-sizing: border-box;
     }
+
     .services .bg {
         background: linear-gradient(to bottom, white 0%, white 44.5%, var(--background-color) 44.5%, var(--background-color) 100%);
     }
@@ -1546,21 +1729,24 @@ footer .tab {
         margin: 0;
         padding: 0;
     }
-    .services .content .o{
+
+    .services .content .o {
         /* margin-bottom: -0px; */
         justify-content: center;
         display: flex;
-        padding: 19px 20px 20px;
+        padding: 20px 20px 20px;
         min-height: 90%;
         align-items: center;
         box-sizing: border-box;
 
     }
-    .services .content .o .dasher,  .services .content .o .partner{
-        padding-top:1.2px !important;
-    }
 
-    .content .o >div {
+    /* .services .content .o .dasher,
+    .services .content .o .partner {
+        padding-top: 1.2px !important;
+    } */
+
+    .content .o>div {
         display: flex;
         gap: 60px;
         box-sizing: border-box;
@@ -1616,8 +1802,8 @@ footer .tab {
         margin: 20px 0 0;
         font-size: 16px;
         line-height: 22px;
-        font-weight: 700;
-        letter-spacing: .1px;
+        font-weight: 500;
+        letter-spacing: .15px;
     }
 
     .find button {
@@ -1654,7 +1840,7 @@ footer .tab {
     .services .image {
         width: 100%;
         box-sizing: border-box;
-       
+
     }
 
     .services img {
@@ -1716,9 +1902,14 @@ footer .tab {
 
     .services .shop {
         margin-bottom: -40px !important;
-        padding-top: 41px;
-        
+        padding-top: 39.5px;
         padding-bottom: 0 !important;
+    }
+    .services .shop button{
+        margin: 30.5px 0 0;
+    }
+    .shop .my p{
+        font-size: 16px !important;
     }
 
     /* -------------------------------------------- */
@@ -1727,7 +1918,7 @@ footer .tab {
     .featured1 {
         background: var(--background-color);
         box-sizing: border-box;
-        
+
 
 
     }
@@ -1744,7 +1935,7 @@ footer .tab {
         text-align: center;
         font-size: 32px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 40.2px;
     }
 
     .feaflexx {
@@ -1754,6 +1945,9 @@ footer .tab {
         box-sizing: border-box;
         width: 100%;
         align-items: center;
+        justify-self: center;
+        justify-content: center;
+        align-self: center;
     }
 
     .feaflex {
@@ -1763,6 +1957,9 @@ footer .tab {
         max-width: 1184px;
         box-sizing: border-box;
     }
+    .feaflex .pet {
+    margin-right: 0px !important;
+}
 
     .feaflex>div {
         max-width: 50% !important;
@@ -1853,24 +2050,33 @@ footer .tab {
     }
 
     .alcohol .care {
-        margin: 22px 0 0 !important;
-           font-size: 18px;
+        margin: 21.7px 0 0 !important;
+        font-size: 18px;
         font-weight: 500;
         line-height: 20px;
         letter-spacing: 1px !important;
     }
-    /* ------------------------------------------------------------------ */
 
-    .services .why{
+    /* ------------------------------------------------------------------ */
+     .services .bgg {
+        background: linear-gradient(to bottom, white 0%, white 44.5%, var(--background-color) 44.5%, var(--background-color) 100%);
+    }
+
+    .services .why {
         padding: 60px 20px 40px;
     }
-    .services .why h1{
+
+    .services .why h1 {
         font-size: 32px;
         font-weight: 700;
         line-height: 40px;
         max-width: 500px;
         text-align: center;
     }
+    /* .services .content .partner{
+        padding-top: 17.5px; 
+        padding-bottom: 21px;
+    } */
 
 
 
@@ -1878,35 +2084,40 @@ footer .tab {
 
 
     /* ------------------------- */
-    .neighbour{
+    .neighbour {
         box-sizing: border-box;
     }
-    .neighbour .spans{
-        padding-top: 8px;
+
+    .neighbour .spans {
+        /* padding-top: 8px; */
     }
-    .neighbour h1{
-        margin-bottom:17.5px !important;
+
+    .neighbour h1 {
+        /* margin-bottom: 17.5px !important; */
         /* padding-bottom: 5px; */
     }
 
     .neighbour .neighflex .tab-content {
         gap: 12px;
     }
-    .seemore{
-        padding-top:15px !important;
+
+    .seemore {
+        /* padding-top: 15px !important; */
     }
-    .seemore span{
-        padding-bottom: 2px;
+
+    .seemore span {
+        /* padding-bottom: 2px; */
     }
-  
+
     /* --------------------------- */
-    footer{
+    footer {
         box-sizing: border-box;
     }
 
 
     footer h4 {
         padding: 0 !important;
+        font-weight: 500;
 
         text-align: left !important;
     }
@@ -1928,7 +2139,8 @@ footer .tab {
 
 
     }
-    .lap{
+
+    .lap {
         display: flex;
         flex-direction: column;
     }
@@ -1944,19 +2156,21 @@ footer .tab {
         flex: 1 1 0% !important;
         box-sizing: border-box;
     }
- 
- 
+
+
 
     footer .trio>div {
         text-align: left;
     }
-       footer .get{
+
+    footer .trio .get {
         max-width: 113.622px !important;
         box-sizing: border-box;
-    
-       /* transform: translateX(55px); */
+
+        /* transform: translateX(55px); */
     }
-     /*footer .doing{
+
+    /*footer .doing{
   
        transform: translateX(110px);
 
@@ -1976,6 +2190,7 @@ footer .tab {
         margin: 0 !important;
 
     }
+
     /* .tab .last a, .tab .last span{
         display: block;
         line-height: 0.8px !important;
@@ -2007,12 +2222,18 @@ footer .tab {
 
 @media screen and (min-width:960px) {
     .banner .name {
-        transform: translateY(-205.5px);
+        transform: translateY(-205px);
     }
-    .input-wrapper input{
-    transform: translate(10px, 0px);
+    .input-wrapper{
+        width: 407.99px;
+    }
+
+    .input-wrapper input {
+                transform: translate(8px, .5px) !important;
 
     }
+
+
     .banner .name .sv1 {
         width: 42px;
         height: 24px;
@@ -2024,9 +2245,10 @@ footer .tab {
     .banner .name .sv2 {
         width: 155px;
         height: 18px;
+        transform: translateY(0px);
 
     }
-    
+
 
     .banner .signin .below {
         display: none !important;
@@ -2045,31 +2267,46 @@ footer .tab {
         color: var(--text-color);
         margin-left: 4px;
         letter-spacing: .3px;
+        font-family: "ttnorms-bold";
+        font-size: 13.3px;
+
+
     }
+    .banner .signin svg{
+        margin-left: -1px;
+    }
+
     /* ----------------------------------------------- */
-    .featured{
-        margin: 32px 0 !important;
-    }
+  
+
     /* ---------------------------------------------------- */
-     .services .content .o{
+    .services .content .o {
         padding: 20px !important;
-     }
-     .services .shop{
-        padding: 40px 0 0 !important;
-     }
-      .services .content .o .dasher,  .services .content .o .partner{
-        padding-top:0px !important;
     }
+
+    .services .shop {
+        padding: 40px 0 0 !important;
+    }
+
+    .services .content .o .dasher,
+    .services .content .o .partner {
+        padding-top: 0px !important;
+    }
+
     /* ------------------------------------------------------------------------- */
-    footer .lap{
+    footer .lap {
         display: flex;
         flex-direction: row-reverse;
         box-sizing: border-box;
     }
-    footer .trio{
+    footer .lap .icons .svg1 {
+    margin-bottom: 12.5px;
+    }
+    footer .trio {
         gap: 12px !important;
     }
-    footer .icons{
+
+    footer .icons {
         display: flex;
         align-items: flex-end !important;
     }
@@ -2078,12 +2315,16 @@ footer .tab {
 }
 
 @media screen and (min-width:1184px) {
-    .banner h1{
-        margin-bottom: 2px;
+    .banner h1 {
+        /* margin-bottom: -2px; */
+        transform: translateY(4px);
+
 
     }
-    .banner .signin{
-              transform: translateY(21px);
+
+    .banner .signin {
+        transform: translateY(21px);
+        padding: 11px 5px 10px 12px;
 
     }
 
@@ -2091,7 +2332,7 @@ footer .tab {
         width: 3%;
     }
 
- 
+
 
     /* ----------------------------------------------------------------- */
 
@@ -2126,17 +2367,20 @@ footer .tab {
 
 
     }
-    .featured  .dasher{
-        transform: translate(34px,-20px) ;
+
+    .featured .dasher {
+        transform: translate(34px, -20px);
     }
-    .featured .expirience{
-        transform: translate(-34px) ;
+
+    .featured .expirience {
+        transform: translate(-34px);
 
     }
-    .featured .merchant{
+
+    .featured .merchant {
         transform: translateY(-20px);
     }
-  
+
 
     .featured ul {
         display: flex;
@@ -2192,36 +2436,42 @@ footer .tab {
 
 
     }
-.featured .anchors a{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-}
-.anchors .svg{
-    padding-top: 3px !important;
-}
+
+    .featured .anchors a {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px !important;
+    }
+
+    .featured .anchors svg {
+        margin-bottom: -2.5px !important;
+    margin-left: .5px !important;
+    }
 
     /* ----------------------------------------------- */
-    .services{
+    .services {
         width: 100%;
         box-sizing: border-box;
     }
+
     .services .content {
         width: 100%;
         box-sizing: border-box;
     }
-    .services .content div{
-        width: 100%;
+
+    .services .content div {
+        /* width: 100%; */
         box-sizing: border-box;
         justify-self: center;
     }
-    .services img{
+
+    .services img {
         width: 100%;
-        
+
     }
 
 
-     /* --------------------------------------------------------- */
+    /* --------------------------------------------------------- */
 
-    
+
 }
