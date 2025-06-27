@@ -142,7 +142,7 @@ header {
 
 .head .info h4 {
     padding: 0;
-    font-weight: 700;
+    font-weight: 200;
     line-height: 22px;
     /* font-family: TT Norms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
 
@@ -205,6 +205,8 @@ header {
     padding-right: 12px;
     padding-left: 11.5px;
     justify-self: flex-end;
+    font-weight: 100;
+
 
 }
 
@@ -299,6 +301,8 @@ header {
     padding: 10.5px 12px 11.5px 12.5px;
     max-width: 100%;
     align-self: flex-end;
+    font-weight: 100;
+    /* font-family: "ttnorms-regular"; */
 
 }
 
@@ -473,7 +477,7 @@ header {
     /* margin-left: -6px; */
     font-size: 14px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 100;
     transform: translate(4px, 0px);
 
     font-family: "ttnorms-bold";
@@ -518,6 +522,7 @@ header {
     margin: 0;
     /* margin-bottom: 4px; */
     transform: translateY(-.5px);
+    font-weight: 200;
 
     font-size: 18px;
     line-height: 22px;
@@ -606,6 +611,8 @@ header {
     /* padding-top: -10px; */
     height: 40px;
     cursor: pointer;
+    font-weight: 100;
+
     grid-row: 2/3;
     grid-column: 1/7;
     margin: 16px 0 0 0;
@@ -682,6 +689,8 @@ header {
     font-weight: 700;
     line-height: 40.2px;
     margin: 0;
+    font-weight: 100;
+
     display: block;
     text-align: left;
     max-width: 100%;
@@ -725,6 +734,8 @@ header {
     font-weight: 700;
     line-height: 20px;
     box-sizing: border-box;
+    font-weight: 100;
+
     font-family: "ttnorms-bold";
 
 }
@@ -763,7 +774,7 @@ header {
     max-width: 90%;
     text-align: left;
     color: var(--text-color);
-    font-weight: 700;
+    font-weight: 100;
     line-height: 28px;
 }
 
@@ -796,7 +807,7 @@ header {
     padding: 6.1px 11.5px;
     margin: 20px 0 40px 0;
     font-size: 14px;
-    font-weight: 700px;
+    font-weight: 100 ;
     line-height: 20px;
     letter-spacing: 0.03px;
 }
@@ -822,8 +833,7 @@ header {
     height: 350px;
     text-align: center;
     width: 100%;
-    background: linear-gradient(rgba(1, 1, 1, 0.6), rgba(0, 0, 0, 0.5)),
-        url(assets/hand-background.avif);
+background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 52%)), url(assets/hand-background.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -850,7 +860,7 @@ header {
     margin: 20px 24px 0;
 
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 28px;
 }
 
@@ -859,7 +869,7 @@ header {
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
     margin: 10px 0 0;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 22px;
 
 
@@ -910,6 +920,7 @@ header {
 .featured1 h2,
 .featured1 p {
     color: #191919;
+    font-weight: 100;
 
 }
 
@@ -992,7 +1003,7 @@ header {
     font-size: 24px;
     margin: 20px 0 0 0;
     max-width: 90%;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 28.1px;
 }
 
@@ -1007,11 +1018,11 @@ header {
 .featured1 button {
     /* padding: 0px 12px; */
     padding: 0;
-    height: 32px;
+    height: 32.1px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 20px;
-    margin-top: 19.5px;
+    margin-top: 20px;
     box-sizing: border-box;
 }
 
@@ -1041,7 +1052,7 @@ header {
 }
 
 .featured1 .alcohol .care p {}
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 /* --------------------------------------------------------------------------- */
 .services .why {
     display: flex;
@@ -1056,7 +1067,7 @@ header {
     text-align: center;
     max-width: 300px;
     line-height: 28px;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 24px;
     margin: 0;
 
@@ -1068,12 +1079,13 @@ header {
 }
 
 .services .dasher button {
-    padding: 5.8px 11.8px;
+    padding: 6.1px 11.8px;
+    margin-bottom: 39px;
 }
 
 .services .partner button {
     margin-bottom: 0;
-    padding: 5.8px 11.8px 6px;
+    padding: 5.9px 11.8px 6px;
 
 }
 
@@ -1092,7 +1104,7 @@ header {
     margin: 0 0 20px 0;
     font-size: 32px;
     line-height: 40px;
-    font-weight: 900;
+    font-weight: 100;
     box-sizing: border-box;
 
 }
@@ -1100,9 +1112,9 @@ header {
 .neighbour .neighflex {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     justify-content: center;
-    gap: 24px;
+    gap: 24px;                                                  
     /* margin-top: -7px; */
     box-sizing: border-box;
 }
@@ -1113,11 +1125,12 @@ header {
     width: 100%;
     box-sizing: border-box;
 }
-
-
+                                                     
+                                                                                                                    
 .neighbour .spans .seen {
     border-bottom: 3px solid var(--text-color);
     box-sizing: border-box;
+    /* background-color :rgb(247, 247, 247); */
 
 
 }
@@ -1125,7 +1138,7 @@ header {
 .neighbour .spans .seen span {
     font-weight: bolder;
     color: var(--text-color);
-
+                                                                                                                                                                                                                                                   
 }
 
 .neighbour .spans div {
@@ -1472,6 +1485,7 @@ footer .tab {
     /* .featured{
         padding: 8px 9px !important;
     } */
+     
     .featured .anchors svg{
         margin-left: 1px;
     }
@@ -1482,9 +1496,15 @@ footer .tab {
     .services .bg {
     background: linear-gradient(to bottom, white 0%, white 17.3%, var(--background-color) 17.3%, var(--background-color) 100%);
 }
+.services .find{
+    padding-top: 1px;
+}
 .services .shop button {
     padding: 6.1px 12px 5.9px;
 
+}
+.featured1 h1{
+    line-height: 27.4px;
 }
 .featured1 button{
     margin-top: 20px !important;
@@ -1497,7 +1517,7 @@ footer .tab {
 
     .neighbour .spans div {
         padding-bottom: 12px;
-        /* box-sizing: unset; */
+        /* box-sizing: content-box; */
 
     }
       .tab .lang {
@@ -1551,6 +1571,7 @@ footer .tab {
         font-size: 16px;
         max-width: 100%;
         align-self: flex-end;
+        font-weight: 200;
 
     }
 
@@ -1561,6 +1582,8 @@ footer .tab {
         margin-right: 24px;
         margin-top: 16px;
         padding: 9.5px 12px;
+        font-weight: 200;
+
         max-width: 100%;
         align-self: flex-end;
         background: #ffffff;
@@ -1713,7 +1736,7 @@ footer .tab {
     } */
      /* .featured .get h3{
         line-height: 24.5px;
-     } */
+     } */                                               
 
     .featured .image {
         margin-right: 64px;
@@ -1726,7 +1749,7 @@ footer .tab {
         box-sizing: border-box;
     }
     .featured h3{
-        line-height: 24.2px;
+        line-height: 24px;
     }
     .featured ul li a {
     font-weight: 900;
@@ -1809,9 +1832,9 @@ footer .tab {
     .services .my h5 {
         font-size: 20px;
         margin: 20px 0 0;
-        font-weight: 500;
+        font-weight: 100;
         line-height: 24px;
-        letter-spacing: -.3px;
+        /* letter-spacing: .3px; */
 
     }
 
@@ -1885,16 +1908,16 @@ footer .tab {
     }
 
     .groceries h2 {
-        margin-top: 21px !important;
+        margin-top: 20px !important;
         font-size: 20px !important;
         font-weight: 700;
-        line-height: 24px;
+        line-height: 24px !important;
     }
 
     .services h1 {
         font-size: 40px;
         margin: 20px 0 0px;
-        font-weight: 700;
+        font-weight: 200;
         text-align: center;
         max-width: 90%;
         line-height: 40px;
@@ -1955,7 +1978,7 @@ footer .tab {
         max-width: 500px;
         text-align: center;
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 200;
         line-height: 40.2px;
     }
 
@@ -2089,11 +2112,11 @@ footer .tab {
 
     .services .why h1 {
         font-size: 32px;
-        font-weight: 700;
-        line-height: 40px;
+        font-weight: 200;
+        line-height: 40.2px;
         max-width: 500px;
         text-align: center;
-    }
+    }                                                                            
     /* .services .content .partner{
         padding-top: 17.5px; 
         padding-bottom: 21px;
@@ -2290,7 +2313,7 @@ footer .tab {
     }
 
     .banner .signin {
-        width: 185px;
+        width: 185px;                                                                                                                                                                           
     }
 
     .banner .signin button {
@@ -2309,7 +2332,7 @@ footer .tab {
     /* ----------------------------------------------- */
   
     .featured h3{
-        line-height: 24px;
+        line-height: 24.1px;
     }
     /* ---------------------------------------------------- */
     .services .content .o {
@@ -2323,6 +2346,9 @@ footer .tab {
     .services .content .o .dasher,
     .services .content .o .partner {
         padding-top: 0px !important;
+    }
+    .services .why h1{
+        line-height: 40px;
     }
 
     /* ------------------------------------------------------------------------- */
@@ -2382,6 +2408,9 @@ footer .tab {
         justify-self: center;
         /* box-sizing: unset; */
 
+    }
+        .featured h3 {
+        line-height: 24px;
     }
 
     .featured {
@@ -2511,6 +2540,9 @@ footer .tab {
 
 
     /* --------------------------------------------------------- */
+    .featured1 .feahead h1{
+        line-height: 40px;
+    }
 
 
 }
